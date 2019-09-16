@@ -1,0 +1,105 @@
+/*
+template name : beautify 
+template coder : Mostafa Elshaikh
+*/
+/* start global */
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  height: 4000px;
+}
+
+/* start header  */
+.mobile-app-banner {
+  background-image: url("/images/slider9.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+  background-repeat: no-repeat;
+}
+.mobile-app-banner-content {
+  color: #fff;
+  margin-top: 200px;
+}
+.mobile-app-banner-content h1 {
+  font-size: 56px;
+  font-weight: 600;
+}
+.mobile-app-banner-content p {
+  font-size: 18px;
+  line-height: 40px;
+  margin: 30px 0;
+}
+.buttons .btn {
+  padding: 18px 40px;
+  margin-bottom: 20px;
+  margin-right: 13px;
+}
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42;
+  white-space: nowrap;
+  vertical-align: middle;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-image: 4px;
+  color: #fff;
+}
+.btn-pink {
+  background-color: #fb527a;
+  font-weight: 600 !important;
+  margin-right: 10px;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.btn-pink:hover {
+  background-color: #fff;
+  color: #fb527a;
+}
+/* end header  */
+/* start features */
+.features .heading {
+  margin-bottom: 80px;
+}
+.feature-text {
+  padding: 50px 50px 0;
+  border: 2px solid #ddd;
+  background: #fff;
+  border-radius: 6px;
+  margin-bottom: 30px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.feature-text:hover {
+  border-top: 6px solid #fb527a;
+  padding-top: 45px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+.feature-text i {
+  color: #fb527a;
+  margin-bottom: 50px;
+}
+.feature-text h4 {
+  font-weight: 200;
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+.feature-text p {
+  font-weight: 200;
+}
+/* start features */
